@@ -1,9 +1,10 @@
 import json
 from duneanalytics import DuneAnalytics
+import os
 
 
 # initialize client
-dune = DuneAnalytics('user', 'password')
+dune = DuneAnalytics(os.environ['DUNE_USER'], os.environ['DUNE_PASSWORD'])
 
 # try to login
 dune.login()
