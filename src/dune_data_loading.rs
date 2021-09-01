@@ -1,4 +1,5 @@
 extern crate serde_derive;
+use crate::models::in_memory_database::DatabaseStruct;
 use anyhow::Result;
 use primitive_types::H160;
 use serde_json;
@@ -9,7 +10,6 @@ use std::path::Path;
 use substring::Substring;
 
 use crate::models::dune_download::{Data, DuneDownload};
-use crate::models::in_memory_database::InMemoryDatabase;
 
 fn read_dune_data_from_file<P: AsRef<Path>>(path: P) -> Result<DuneDownload> {
     // Open the file in read-only mode with buffer.
@@ -19,7 +19,7 @@ fn read_dune_data_from_file<P: AsRef<Path>>(path: P) -> Result<DuneDownload> {
     Ok(u)
 }
 
-pub fn load_data_from_json_into_memory(dune_data_file: String) -> Result<InMemoryDatabase> {
+pub fn load_data_from_json_into_memory(dune_data_file: String) -> Result<DatabaseStruct> {
     let dune_download =
         read_dune_data_from_file(dune_data_file).expect("JSON was not well-formatted");
     let mut memory_database: HashMap<H160, Vec<Data>> = HashMap::new();
@@ -40,5 +40,8 @@ pub fn load_data_from_json_into_memory(dune_data_file: String) -> Result<InMemor
         memory_database.insert(address, vector_to_insert);
     }
     let date = dune_download.time_of_download;
-    Ok(InMemoryDatabase(memory_database, date))
+    Ok(DatabaseStruct {
+        user_data: memory_database,
+        updated: date,
+    })
 }

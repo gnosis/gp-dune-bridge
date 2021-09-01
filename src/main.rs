@@ -1,10 +1,13 @@
 extern crate serde_derive;
 use gpdata::dune_data_loading::load_data_from_json_into_memory;
+use gpdata::in_memory_maintainance::in_memory_database_maintaince;
 use gpdata::metrics::Metrics;
+use gpdata::models::in_memory_database::InMemoryDatabase;
 use prometheus::Registry;
+use std::sync::{Arc, Mutex};
 
 use gpdata::serve_task;
-use std::{net::SocketAddr, sync::Arc};
+use std::net::SocketAddr;
 use structopt::StructOpt;
 
 #[derive(Debug, StructOpt)]
@@ -13,7 +16,6 @@ struct Arguments {
     bind_address: SocketAddr,
     #[structopt(long, env = "DUNE_DATA_FILE", default_value = "./user_data.json")]
     dune_data_file: String,
-    
 }
 
 #[tokio::main]
@@ -23,9 +25,11 @@ async fn main() {
 
     let registry = Registry::default();
     let metrics = Arc::new(Metrics::new(&registry).unwrap());
+    let dune_download_file = args.dune_data_file;
 
-    let memory_database =
-        Arc::new(load_data_from_json_into_memory(args.dune_data_file).expect("could not load data into memory"));
+    let dune_data = load_data_from_json_into_memory(dune_download_file.clone())
+        .expect("could not load data into memory");
+    let memory_database = Arc::new(InMemoryDatabase(Mutex::new(dune_data)));
 
     let serve_task = serve_task(
         memory_database.clone(),
@@ -33,7 +37,12 @@ async fn main() {
         registry,
         metrics.clone(),
     );
+    let maintance_task = tokio::task::spawn(in_memory_database_maintaince(
+        memory_database.clone(),
+        dune_download_file,
+    ));
     tokio::select! {
+        result = maintance_task => tracing::error!(?result, "maintance task exited"),
         result = serve_task => tracing::error!(?result, "serve task exited"),
     };
 }

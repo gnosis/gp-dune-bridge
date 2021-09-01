@@ -10,7 +10,7 @@ pub fn handle_all_routes(
     memory_database: Arc<InMemoryDatabase>,
     metrics: Arc<Metrics>,
 ) -> impl Filter<Extract = (impl Reply,), Error = Rejection> + Clone {
-    let get_profile = get_profile::get_profile(memory_database.clone());
+    let get_profile = get_profile::get_profile(memory_database);
     let cors = warp::cors()
         .allow_any_origin()
         .allow_methods(vec!["GET", "POST", "DELETE", "OPTIONS", "PUT", "PATCH"])

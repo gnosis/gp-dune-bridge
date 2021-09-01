@@ -69,57 +69,57 @@ pub fn get_profile(
     })
 }
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-    use crate::api::response_body;
-    use hex_literal::hex;
-    use primitive_types::H160;
-    use warp::test::{request, RequestBuilder};
+// #[cfg(test)]
+// mod tests {
+//     use super::*;
+//     use crate::api::response_body;
+//     use hex_literal::hex;
+//     use primitive_types::H160;
+//     use warp::test::{request, RequestBuilder};
 
-    // #[tokio::test]
-    // async fn get_profile_request_ok() {
-    //     let order_filter = |request: RequestBuilder| async move {
-    //         let filter = get_orders_request();
-    //         request.method("GET").filter(&filter).await
-    //     };
+// #[tokio::test]
+// async fn get_profile_request_ok() {
+//     let order_filter = |request: RequestBuilder| async move {
+//         let filter = get_orders_request();
+//         request.method("GET").filter(&filter).await
+//     };
 
-    //     let owner = H160::from_slice(&hex!("0000000000000000000000000000000000000001"));
-    //     let sell = H160::from_slice(&hex!("0000000000000000000000000000000000000002"));
-    //     let buy = H160::from_slice(&hex!("0000000000000000000000000000000000000003"));
-    //     let path = format!(
-    //         "/orders?owner=0x{:x}&sellToken=0x{:x}&buyToken=0x{:x}&minValidTo=2&includeFullyExecuted=true&includeInvalidated=true&includeInsufficientBalance=true",
-    //         owner, sell, buy
-    //     );
-    //     let request = request().path(path.as_str());
-    //     let result = order_filter(request).await.unwrap().unwrap();
-    //     assert_eq!(result.owner, Some(owner));
-    //     assert_eq!(result.buy_token, Some(buy));
-    //     assert_eq!(result.sell_token, Some(sell));
-    //     assert_eq!(result.min_valid_to, 2);
-    //     assert!(!result.exclude_fully_executed);
-    //     assert!(!result.exclude_invalidated);
-    //     assert!(!result.exclude_insufficient_balance);
-    // }
+//     let owner = H160::from_slice(&hex!("0000000000000000000000000000000000000001"));
+//     let sell = H160::from_slice(&hex!("0000000000000000000000000000000000000002"));
+//     let buy = H160::from_slice(&hex!("0000000000000000000000000000000000000003"));
+//     let path = format!(
+//         "/orders?owner=0x{:x}&sellToken=0x{:x}&buyToken=0x{:x}&minValidTo=2&includeFullyExecuted=true&includeInvalidated=true&includeInsufficientBalance=true",
+//         owner, sell, buy
+//     );
+//     let request = request().path(path.as_str());
+//     let result = order_filter(request).await.unwrap().unwrap();
+//     assert_eq!(result.owner, Some(owner));
+//     assert_eq!(result.buy_token, Some(buy));
+//     assert_eq!(result.sell_token, Some(sell));
+//     assert_eq!(result.min_valid_to, 2);
+//     assert!(!result.exclude_fully_executed);
+//     assert!(!result.exclude_invalidated);
+//     assert!(!result.exclude_insufficient_balance);
+// }
 
-    // #[test]
-    // fn cannot_create_too_generic_filter() {
-    //     let query = Query {
-    //         owner: None,
-    //         sell_token: None,
-    //         buy_token: None,
-    //         ..Default::default()
-    //     };
-    //     assert!(query.order_filter().is_err());
-    // }
+// #[test]
+// fn cannot_create_too_generic_filter() {
+//     let query = Query {
+//         owner: None,
+//         sell_token: None,
+//         buy_token: None,
+//         ..Default::default()
+//     };
+//     assert!(query.order_filter().is_err());
+// }
 
-    // #[tokio::test]
-    // async fn get_orders_response_ok() {
-    //     let orders = vec![Order::default()];
-    //     let response = get_orders_response(Ok(orders.clone())).into_response();
-    //     assert_eq!(response.status(), StatusCode::OK);
-    //     let body = response_body(response).await;
-    //     let response_orders: Vec<Order> = serde_json::from_slice(body.as_slice()).unwrap();
-    //     assert_eq!(response_orders, orders);
-    // }
-}
+// #[tokio::test]
+// async fn get_orders_response_ok() {
+//     let orders = vec![Order::default()];
+//     let response = get_orders_response(Ok(orders.clone())).into_response();
+//     assert_eq!(response.status(), StatusCode::OK);
+//     let body = response_body(response).await;
+//     let response_orders: Vec<Order> = serde_json::from_slice(body.as_slice()).unwrap();
+//     assert_eq!(response_orders, orders);
+// }
+// }

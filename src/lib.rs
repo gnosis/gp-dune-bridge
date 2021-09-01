@@ -2,9 +2,9 @@ pub mod api;
 pub mod date_de_serialization;
 pub mod dune_data_loading;
 pub mod h160_hexadecimal;
+pub mod in_memory_maintainance;
 pub mod metrics;
 pub mod models;
-
 
 extern crate serde_derive;
 
@@ -12,10 +12,9 @@ use metrics::serve_metrics;
 use metrics::{Metrics, DEFAULT_METRICS_PORT};
 use prometheus::Registry;
 
+use models::in_memory_database::InMemoryDatabase;
 use std::{net::SocketAddr, sync::Arc};
 use tokio::{task, task::JoinHandle};
-use models::in_memory_database::InMemoryDatabase;
-
 
 pub fn serve_task(
     db: Arc<InMemoryDatabase>,

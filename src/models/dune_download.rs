@@ -1,6 +1,6 @@
 extern crate serde_derive;
-use chrono::prelude::*;
 use crate::date_de_serialization::from_date;
+use chrono::prelude::*;
 use serde::{Deserialize, Serialize};
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
