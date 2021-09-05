@@ -14,7 +14,7 @@ dune.fetch_auth_token()
 
 # fetch query result id using query id
 # query id for any query can be found from the url of the query:
-result_id = dune.query_result_id(query_id=101571)
+result_id = dune.query_result_id(query_id=101571) # future query_id will be 135804
 
 # fetch query result
 data = dune.query_result(result_id)
