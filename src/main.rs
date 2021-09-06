@@ -1,5 +1,5 @@
 use gpdata::dune_data_loading::load_dune_data_into_memory;
-use gpdata::in_memory_maintainance::in_memory_database_maintaince;
+use gpdata::in_memory_maintenance::in_memory_database_maintaince;
 use gpdata::models::in_memory_database::InMemoryDatabase;
 use gpdata::serve_task;
 use std::net::SocketAddr;
