@@ -11,15 +11,20 @@ pub async fn in_memory_database_maintaince(
 ) {
     let db = Arc::clone(&memory_database);
     loop {
-        {
-            let mut guard = match db.0.lock() {
-                Ok(guard) => guard,
-                Err(poisoned) => poisoned.into_inner(),
-            };
-            let new_data_mutex = load_data_from_json_into_memory(dune_download_file.clone())
-                .expect("could not load data into memory");
-            *guard = new_data_mutex;
-        }
+        let new_data_mutex = load_data_from_json_into_memory(dune_download_file.clone());
+        match new_data_mutex {
+            Ok(data) => {
+                let mut guard = match db.0.lock() {
+                    Ok(guard) => guard,
+                    Err(poisoned) => poisoned.into_inner(),
+                };
+                *guard = data;
+            }
+            Err(err) => tracing::info!(
+                "could not load query-data from json due to the error {:}",
+                err
+            ),
+        };
         tokio::time::sleep(MAINTENANCE_INTERVAL).await;
     }
 }

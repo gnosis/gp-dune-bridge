@@ -5,6 +5,7 @@ pub mod h160_hexadecimal;
 pub mod in_memory_maintainance;
 pub mod metrics;
 pub mod models;
+pub mod referral_maintenance;
 
 extern crate serde_derive;
 

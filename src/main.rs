@@ -3,6 +3,9 @@ use gpdata::dune_data_loading::load_data_from_json_into_memory;
 use gpdata::in_memory_maintainance::in_memory_database_maintaince;
 use gpdata::metrics::Metrics;
 use gpdata::models::in_memory_database::InMemoryDatabase;
+use gpdata::models::referral_store::ReferralStore;
+use gpdata::referral_maintenance::referral_maintainance;
+use primitive_types::H256;
 use prometheus::Registry;
 use std::sync::{Arc, Mutex};
 
@@ -31,6 +34,12 @@ async fn main() {
         .expect("could not load data into memory");
     let memory_database = Arc::new(InMemoryDatabase(Mutex::new(dune_data)));
 
+    let test_app_data_hash: H256 =
+        "3d876de8fcd70969349c92d731eeb0482fe8667ceca075592b8785081d630b9a"
+            .parse()
+            .unwrap();
+    let referral_store = ReferralStore::new(vec![test_app_data_hash]);
+    referral_maintainance(Arc::new(referral_store)).await;
     let serve_task = serve_task(
         memory_database.clone(),
         args.bind_address,

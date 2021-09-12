@@ -4,7 +4,7 @@ use chrono::prelude::*;
 use serde::{Deserialize, Serialize};
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
-pub struct DuneDownload {
+pub struct DuneTradingDataDownload {
     pub user_data: Vec<UserData>,
     #[serde(deserialize_with = "from_date")]
     pub time_of_download: DateTime<Utc>,

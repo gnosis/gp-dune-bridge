@@ -1,5 +1,5 @@
 extern crate serde_derive;
-use super::dune_download::Data;
+use super::dune_trading_data_download::Data;
 use anyhow::Result;
 use chrono::prelude::*;
 use primitive_types::H160;

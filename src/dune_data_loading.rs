@@ -9,9 +9,9 @@ use std::io::BufReader;
 use std::path::Path;
 use substring::Substring;
 
-use crate::models::dune_download::{Data, DuneDownload};
+use crate::models::dune_trading_data_download::{Data, DuneTradingDataDownload};
 
-fn read_dune_data_from_file<P: AsRef<Path>>(path: P) -> Result<DuneDownload> {
+fn read_dune_data_from_file<P: AsRef<Path>>(path: P) -> Result<DuneTradingDataDownload> {
     // Open the file in read-only mode with buffer.
     let file = File::open(path)?;
     let reader = BufReader::new(file);
