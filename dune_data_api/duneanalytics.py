@@ -168,6 +168,17 @@ class DuneAnalytics:
         else:
             print(response.text)
 
+    def execute_query(self, query_id):
+        query_data = {"operationName": "ExecuteQuery", "variables": {"query_id": query_id, "parameters": [
+        ]}, "query": "mutation ExecuteQuery($query_id: Int!, $parameters: [Parameter!]!) {\n  execute_query(query_id: $query_id, parameters: $parameters) {\n    job_id\n    __typename\n  }\n}\n"}
+
+        self.session.headers.update({'authorization': f'Bearer {self.token}'})
+        response = self.session.post(GRAPH_URL, json=query_data)
+        if response.status_code == 200:
+            data = response.json()
+        else:
+            print(response.text)
+
     def query_result_id(self, query_id):
         """
         Fetch the query result id for a query
@@ -186,7 +197,6 @@ class DuneAnalytics:
         response = self.session.post(GRAPH_URL, json=query_data)
         if response.status_code == 200:
             data = response.json()
-            print(data)
             if 'errors' in data:
                 return None
             result_id = data.get('data').get('get_result').get('result_id')
@@ -214,7 +224,6 @@ class DuneAnalytics:
         response = self.session.post(GRAPH_URL, json=query_data)
         if response.status_code == 200:
             data = response.json()
-            print(data)
             return data
         else:
             print(response.text)

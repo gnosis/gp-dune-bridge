@@ -1,0 +1,2645 @@
+{
+    "user_data": [
+        {
+            "data": {
+                "cowswap_usd_volume": 487.66302949748405,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xff5d6d6f0ca61ac902274595a1297e11071b91a5",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 485.433154414877
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 85048.40081796225,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\xff4f9b932488e8063bfcd98bc0e1170517358c26",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 85048.4008179622
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 9083.603694505468,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xfd8dba176faef03903e0c9c4ab8b3898a6a1e409",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 9127.547
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 90164.48961455707,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\xfd6231a29661100e9f7e68d37730b040e24cad28",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 170168.38283160728
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 497.8927592876886,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\xfc51fb6a776a44fda08b1538830226fd9187e92d",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 503.590622209591
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 714.7428246174666,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\xfa37b6f544a0d0ce9c70ffcc3fad02602069e6e8",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 12432.5842
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 20897.974074292768,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\xf63d29b67aabbafa772c51e29dc7a89d391cfa7e",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 21029.064
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 19991.422501648252,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\xf2f259fb47515e055d6d9dd821e63de4448ab4dc",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 19958.63547529213
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 24112.689785364655,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xf1147f7313a24bad6ecd8a1de02bb3417a2c6c1f",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 24038.3052866569
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.02,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\xf0e4d0d6094d6e13f61013a663b56154546b6c4a",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 2191.384204510614
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 59.76101488074909,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 3,
+                "owner": "\\xeef2eab0384980106a739541ee75199b02c6c563",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 179.9319393040529
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 19996.288766509344,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xed2902f7c43c45e8348cbbe2fc438c6aa7cd2850",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 20036.56
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 11429.852810604521,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 4,
+                "owner": "\\xec978c6e3a03567442a3c2eb30fc06832d20f6a3",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 11706.005895551625
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 533979.4646415258,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 7,
+                "owner": "\\xe965484ba4250c446779d4703f1598dc2ea00d12",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 557840.1878339214
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 75.58714737282685,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xe786b38f7a1f3a6e4d849b96149b9a0f0813f503",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 103.242310039494
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 4055.7204682429747,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xe744b59437cd501935f7336a2ef7a5accf15eeba",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 4059.72982928398
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 4419.883709342864,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xe7207afc5cd57625b88e2ddbc4fe9de794a76b0f",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 22018.51489269225
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 2898.8056275737918,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xe708500d72f5c6409dc603899e78ed7ef4d8dd52",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 2921.59
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 4974.142090202712,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xe57cc18750c2052700ab1accafbe12558f28e794",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 4963.01408744923
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 1053.7198480594664,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 4,
+                "owner": "\\xe4f735b1fed9dda08932e51be4ccec989769f971",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 1052.978786574301
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 198479.4358238122,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xe3e39161d35e9a81edec667a5387bfae85752854",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 198282
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 88610.50107520001,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xe1b048f4af9cf771829a5bad6e77d636be2ca3f4",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 177232.1141560616
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 73283.47934740143,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xe016b7eedfbdfc2e45972236cac7f5230f959677",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 73312.3424631257
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 466.6009382929427,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xdf631777df4debcbcd647e85bdcb868b43663ba0",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 477.110404402415
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 6123.777471474959,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 4,
+                "owner": "\\xdeeb758e147ea422e6bad89bcfafabfac0527949",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 6166.321861169249
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 3340.3655110871996,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xde0e14e314ec13cabc21272f9dd27dec0c92b504",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 3340.3655110872
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 95862.77502129087,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\xdd923ff5961796b3005ee0d964d154ad08bd3695",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 95920.44059373303
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 2021.3872887625198,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xdd88ae77bc33a9697481b4d1c3f9d0449e3e2a6e",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 2020.35599662998
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 405187.71887607535,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 3,
+                "owner": "\\xdafbed6fc9a5783983994aa7748ff79729caf1e9",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 404831.1364281511
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 417.73321335164104,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xdaf8b06e2f3d5699e066e6e3248f4830430be330",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 417.34114533738
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 2879.497962,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xda5ecb0e5a4a458e649f2167e032a61479798166",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 2879.497962
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 7.4181631147200005,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xd9d8142feeb867cf543dc683df9085aa002c49eb",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 7.31273288276287
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 585.854104264328,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xd9c3415bf8600f007a1b4199df967c25a3e00eea",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 132675.7588292796
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 1982.64120332404,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xd92ba9ec2aaa7cf42cdb5f1f3bb9fbb9d2639250",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 2001.16
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 106440.92735323455,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\xd8faec528b9fbf4fe3226d6beb8b14a4f9bad655",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 209011.0333050789
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 33526.91528947975,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\xd8480758270d670e401fdac86925cfc225a9dfe0",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 33526.9152894797
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 6488.043424167568,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 4,
+                "owner": "\\xd674d9dbea02b7457408ed2cd21051498ec8d13c",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 12630.67705981549
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.04,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 4,
+                "owner": "\\xd63ff70c84c1292085234126eac87fad714af17b",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": null
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 859.6513296232155,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xd617c52405eb7b3c9df2c5d4c212e1798b36755c",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 876.165
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 9350.203822835047,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xd565ed001af98ad11a055802b71754063e92f7d2",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 21079.51711154975
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.01,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xd3eac30a8a2477e430853d6626d3704069c9780d",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 6504.28590266869
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 99.29239419570199,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xd1f981c907494bf9bcf8eaa90b350b5d4b5ed0e8",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 100.1306
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 969.3888942504028,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 4,
+                "owner": "\\xd1c333a4e3f60736390e718b964d3e6706410732",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 984.280171093103
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 706.115023524804,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xd0099cd4c4e95d6581c3202e38435d81992ccee4",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 706.115023524804
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 4593.997393400612,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\xcecce5a3da042e8ad4d1e2019b1551d4c898dd6e",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 5263.991364676782
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 36873.17434005522,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\xcd9caa9f6fb30aa4c09db1ddf32fbaedf9662d2f",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 37071.9105305212
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 85.514508184807,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xcce3630f8e411220b47c8d1bf8d4627c10558f52",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 85.3388386986799
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 274.3970911649883,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xca8430260e8d166173be4fa331dc05a6d50ac18b",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 292.029
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 2801.1626595799744,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xc8d4a8970035f9f3fd01dbd238c97b5348aa3199",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 2834.54013588506
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 10322.153073238147,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xc7e61c535d8462e4753160959895a007c93ca9e0",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 10322.1530732381
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 215636.5350432393,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 6,
+                "owner": "\\xc6093fd9cc143f9f058938868b2df2daf9a91d28",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 5230313.333246212
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 14551.19774842972,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xc5dc5284f0c00f29678d330c99275ba46c56649c",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": null
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 232.72039401348002,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xc3edf7cf94c76c14e73a6888c228d37ffeefa1c0",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 232.72039401348
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.01,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xc29d294b9c254d20ba7e20923f31a8fe91d4faeb",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 28867.0572010251
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.01,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xc23eef354eeafa70619a1a37f9139b9b09af826a",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": null
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 6732.052735553221,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xc19889b7edd8dcc72318402254c3779ec0bf5433",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 6727.66802665837
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 1211.1798748117676,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\xc13ab4d11ed398027868b7d97cbbaa1a642f4825",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 1211.179874811768
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 129817.06317974252,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 3,
+                "owner": "\\xc12a39668ed7257410a598cb8fb6e9bcdf594620",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 170707.6116761322
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 205624.56902614248,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 3,
+                "owner": "\\xc0ffee22f360792a89db39f159f103daafe9c57d",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 205765.765091116
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 2555.2151159725204,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xbf675280cf6f2a3b86c92011b5e17a72451712ed",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 2555.21511597252
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 1311.4745370234284,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xbed050c15224a53a12815fa79f2b1ef431887eb2",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 1364.37522732321
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 22805.981410822606,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\xbe61e267168120b9ae658c88e77031f3b33a74f8",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 22787.6626917018
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 117.9410536401633,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xb8972e9db4c65a681312b85b12827d0426b655f4",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 118.5
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 183.183508463332,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xb86c9030210cdd74d5132682a2241ae375d28e56",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 183.859226977616
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.01,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xb7914de3f5677d5c44c79922302526436aabcb55",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 93.8338570288444
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 1080.6545436124193,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xb6af45541b02bdfc995a6b0f9685903eb1569c18",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 1088.72259308516
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 51256.170565975466,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 3,
+                "owner": "\\xb4522eb2ca49963de9c3dc69023cbe6d53489c98",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 51335.81101970977
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 1652.6945531086103,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 4,
+                "owner": "\\xb24ca5372c5eaac3c65092435b51348341a009b6",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 1650.857801651552
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 11817.8514608,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xb1889840610875eb3c3549ceed0385627f2825fa",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 11827.4732580141
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.01,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xb1776c152080228214c2e84e39a93311ff3c03c1",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 11041.24899903801
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 25722.99816488813,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 6,
+                "owner": "\\xb0f4b88d29667607e88198a12e6b19700b08abf1",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 24327.86951168417
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 4080.124960008278,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xb0e83c2d71a991017e0116d58c5765abc57384af",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 4058.44368004457
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 24294.917778060477,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xb06f7fb7bc17cdaf2bcdec9b9d869a37a42e05a2",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 24796.1357780605
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 520.0095509210144,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\xb01a5af60f6c0c2858b1a8f8b503490d41761c03",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 521.562817389474
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 48.564590107449206,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xaf77f649e1232e98a0a8c1f2617f004b7d72afaf",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 47.737241325107
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 2449.2615938661834,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xacc0e80e3cccede7d2948ab542700bb9499d2623",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 2480.3986410108
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.01,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xa90ff11eac405e7371c2a521f2f31684b7044408",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 1101.9828861963
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 2038.7112531096172,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xa742a54e0b9cd1cac03c8f569ba4c606694261f9",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 3038.712036028441
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 1642.0171707548866,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\xa3d959019748ae706e28476c775a4f5966bc450d",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": null
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 4.664481319887999,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xa2a2f78c7916b9c8a83f8605552ed35108541d51",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 19.29648069562336
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 485.607660560775,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xa198e245bf6929c1a1899e36bf957417143d4f7f",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 3672.003862721886
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 2657.712457088083,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 3,
+                "owner": "\\xa0f838d02983161ee469bff969964b7051ac1cd9",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 2692.61860635313
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 131826.0511822933,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\xa0eac5d90be5e6346b22895a207d49fbe9711447",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 131826.051182293
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 7244.1539588278465,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\xa0b52565a0806cd6fd0b5507b2578ea9d1077132",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 7244.15395882785
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 4953.510295180135,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x9e81eb69d79b839a4ffd9c4c44d112a71ed7505b",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 51474.79321016452
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 256530.9671092087,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 3,
+                "owner": "\\x9e51bb6841fe9d6fbc7bcc9bafb67d65767ceb32",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 256247.4526832774
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 126961.1717575298,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 5,
+                "owner": "\\x9dcc35ae915926f7f5e8c624254d91f755d55b71",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 153410.8272665118
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 12490.75860567487,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x9d7d459b07cc13880efe8e44e734b05ecb0dd506",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 12542.436936
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 2980.927221254532,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x9d5009a085e3dddab3820b5a9dcc09bde6c73a6d",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 3002.18700000158
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 75.16060959911974,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x9c14ca2486e824eccc0e0f95969d1df22da9d207",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 96.8565158549486
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 3581.2546542922228,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x9ba45aa459e323b5003b54ae6d5bb129fd049d9c",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 3581.25465429222
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 2392.3360457251442,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x9b7190103eb2f86e98ae55c53c9cb0e433dd4e42",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": null
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 111022.38568071167,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x997563ba8058e80f1e4dd5b7f695b5c2b065408e",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 111190.56
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 41421.433208096976,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 9,
+                "owner": "\\x98265d92b016df8758f361fb8d2f9a813c82494a",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 44399.89550110416
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 1031.5800404825582,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x96a3ba33255a96634e98d108cc111ddc87376d7a",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 2064.89496520966
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 18783.88810055121,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x955277a438d84d524a0fc96231a7efb17194d6f9",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 16886.6858825703
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 4430.114094933333,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x935d2fd458fdf41b6f7b62471f593797866a3ce6",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 4430.58903686312
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 1986242.3911873149,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 13,
+                "owner": "\\x933258bddd49beeca77f6d1889633c5429af45ea",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 1099165.355607552
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 2729.4428532281518,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x92b5136533bf6e254c9a5d7cbab609c2942569a9",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 3522.659568848444
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 460729.4645891303,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x916f70fe410adb328c1050e8333b4dfc8c341290",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 460729.46458913
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 92.02138707586799,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x916e44473f986d82b8a8e47e51b919e0b855942c",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 92.3156436744431
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 35149.47264976542,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x90fdeaa5fff137bcbdee150fbff5b556dfc23ab3",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 35149.4726497654
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 2050.1919265352212,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x90560b4ee0633f7d39d4426b7d5ab276a5b2ef9b",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 2042.80204920866
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.01,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x905271bc09d526a336d1ad669ee12798ff063785",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": null
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 72717.85961700513,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x8fe7b143b2c67739e9c933da0a48142b14c4415d",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 73000.9315109384
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.01,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x8ecab7b8ed8215ca52500cbf1548b9239173ef82",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 7353.7471085181
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 4380.857971947195,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x8ec139a203c8e36e3a06963d6900f30bf3f4c0d0",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 4364.24211347904
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 10252.096238103288,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x8e21605c69906876f8964bb931f4dce2d4550b2e",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 10235.29888741649
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 28090.53702938761,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x8d4398ac93dfee0fc752adb9604cf690047d4c77",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 35385.790322682
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.01,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x8c1ec1b0f5b187938ceb356127a1a75dadf7d074",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 883.756723802043
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 5.9856932384251555,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x8b1b0f049b9a7c76bd721b14d90359a3dee1f58d",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 6.23052856559837
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 380.40745642983995,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x89a2a295174d899c6d68dfc03535993ee15ff72e",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 379.044916347167
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 11812.40676,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x897e6ccf23e68ee59c05d01ecc0b47c0355902a7",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 11838.4738642231
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 11771.027551353036,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x895adf4a76e1df026916ee3e24e9df7b7b242867",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 11839.72391650692
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 56391.41517392196,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x86f032cd94d4a681bf4b8328b0d958fd2ea77a4d",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 56427.8497136733
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 170105.8724263019,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x8540f80fab2afcae8d8fd6b1557b1cf943a0999b",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 573059.5708516439
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 986.6497449151001,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x849fc5c3f7b2a3b250b62fdfffa7a453f13d65de",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 984.738126208731
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 11806.2335626662,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x83ed2d225b956a4a26ceff7bab1fa76ac4aabcec",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 11826.5505764843
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 152770.6740201772,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x814fcc59f54c375729084f48a91eafd232e8f19e",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": null
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 476.17626084433675,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x7eac678fb137dd7555ceae09b4b67f46be5cb2ab",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 483.476713664854
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.02,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x7da9949382c0f36700b563712ff0a6e38374aa92",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 1332.356583147402
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 95602.50152348158,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x7d26d3bd8e5eee24697ecdf4f7b41c2ca2f92f30",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 121825.9963458131
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.02,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x7957d651d862c08d257b85aa54a51006712fac0a",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": null
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 38.38628965977,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x788a7572a8226c09c5096937333e37e463dea97a",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 46.6593391408601
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 51.653732332971146,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x77f779ab2bdcd641eda87c66f6bb6dde44d449f1",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 51.2535326952768
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 15071.541475476253,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x7766433a64adfd8d34094a2f2ddd16693a5f771d",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 15056.43875069085
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 985.935180947418,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x7676b134e88bacb4e0c6c9b34d80c94c77e89232",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 1022.53621032
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 389.08973328634903,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x7672a35e5e5449af71b4e46a8a6700d427ffdbd5",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 388.319905417591
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 466.77829469435693,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x760f6136a5ad6d7a8e989b3adbdae6b2dd2510c3",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 13.5203406324878
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 361.91930813102493,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x73eac38d3d5c31d1340494197d7e90cf80116f08",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 950.836683129533
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 84009.09875669096,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 3,
+                "owner": "\\x735c79a60736f78c7addd611e1c9b4a204727961",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 84103.152825437
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 13437.163667674333,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 3,
+                "owner": "\\x726f8e6ad4bf8cdff645fd3f8682ac3a00f683d1",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 13482.96352627656
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 191575.89797504985,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 3,
+                "owner": "\\x6e4f950321ca13946d442a0f00db03cd731b41d7",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 191884.8283352976
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.01,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x6c6541cc3ec6bfc2d7b0ca48ccb0225cbbea9b59",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 219912.841116442
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 237.38065528378797,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x6be232616b4862f5dbc14fd19bb704d7596cb1ff",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 236.456231082314
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.01,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x6a8820aab71bbf12aff35956dec7d14ee895ec6c",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": null
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 328.5017506913025,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x68e845717ea2ae0ca63e7b2c9f6052fe7397e96e",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 1891.166681981577
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 9045.341616476935,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x68a8679a682acac8d767c8490e6934225ce3890d",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 9054.84708410596
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 547.5694179422765,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x67e5ab5b573f01030a1076dda7a79ef0f31a1bfa",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 59870.44161984841
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 48495.91959252252,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x625d6e3f15c8c42a04d342d18937c6167f71e521",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 71349.5217992783
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 196.51475749274957,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x61889e2d142f6a9ce4c8bc9e13ecbe31e3c56ff5",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 194.692234239964
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 4884.58648064247,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x5eb0cf5f601f7fd0816f632af338efb292b01316",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 4912.72160427146
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 22002.17805110173,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x5e177a78f8a160290d537e0fba87ec4e4e46fffd",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 22002.1780511017
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 27633.33261093609,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x5ae26bf6a11d92e51a9f58988cfdf9b6cdba9838",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 27630.9281331077
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 2561.2975071487785,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x58cd5ec80b84f438866caa806bc6a1be3c1a3b7c",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 2569.13733106348
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 49975.18992922582,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x586208843e4b7078dbab9898f7b592e5987d3019",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 50076.15
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 2041.6638497053884,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x56eb62e08fadbd1280fa57656c3ea456864bd192",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 2034.07392555498
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 2070.860320099304,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x52689eb98c60ecfa046bc872d0e3d9166b3131c5",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 2113.16298389789
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 1853.0876441822263,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x50d84a38eed106d692840a20a20aba6df6890d52",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 1845.08442825246
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 14681.190607252041,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x4f1383876e30d353637af4b19313b11425a8830c",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 14754.05
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 2826.346205386739,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x4daa7228c09c72e89a8286b88a375249ba5cc4f6",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 2825.24063481117
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 5820.951880523025,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x4d928359e8556197f161f4927a928dfde9c3d1a8",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 192602.7511762323
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 918.4562500705905,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x4c55c41bd839b3552fb2abecacfdf4a5d2879cb9",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 1856.815364960409
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 206629.84505882833,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x4c180462a051ab67d8237ede2c987590df2fbbe6",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 205971.688984747
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 1533.6522943938544,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x4c0713d9eb4efd10ccf4d459630f4652723c9f30",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 2032.220956539494
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 333.9276378828804,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x4ac006ecc51ff15054a0cc21d715f80cfa8d4341",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 1363.235861314681
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 3157.2060452879696,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x49c233d25768e462f0474390f653baf40dd592b2",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 3144.60304292088
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 956.8603677071321,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x464ef8ec3fde970385b82d7df6b566e511f91d55",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 994.603791288912
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 1052.3625060620855,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x46212a58e2050ab0cd373a724de4bb490fc00535",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 1052.24564387599
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 15737.764045025733,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 3,
+                "owner": "\\x44c2968c98bfae5bd451f2cc524ef3e7103bdcc7",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 38106.9527751791
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 15462.651767837531,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x43a9da9bade357843fbe7e5ee3eedd910f9fac1e",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 15505.859
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 233.9494997333333,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x42f905b3e4d5e7792a2d1509c50a180226d0fb95",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 235.052173599381
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 309842.99311462906,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 3,
+                "owner": "\\x41bc7d0687e6cea57fa26da78379dfdc5627c56d",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 320873.138938725
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 201835.26159388688,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x3efd3391a0601eaa093647f911c653d77c11e3fd",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 201914.03512761777
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 62591.01619844129,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x3ead180ae502757fc6e444e4cf3d861fe27fe0ac",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 61946.762964561
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 1000.1163151584519,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x3e3672b23eb22946a31263d2d178bf0fb1f4bbfd",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 1021.93679160074
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 1080.5943470714292,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 4,
+                "owner": "\\x3db02666f8672bfd41064d2262dec3d1670d4911",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 1086.103703938359
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 9065.062328017086,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x3d54f8fc89d83cf5524aa183d6c7c31598e36828",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 9070.91263221034
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 50015.57548518516,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x39d787fdf7384597c7208644dbb6fda1cca4ebdf",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 50062.054329805
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 641.1341012320557,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x34aaa3d5a73d6f9594326d0422ce69748f09b14f",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 646.8852667028
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 19025.153239468884,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x33b2a0295a48cac80dd6ba59c6880dcb1a9d2784",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 19025.1532394689
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 81212.0789749144,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x33553d83a0bb27f10fd2cda9ce3c53f83f325dd6",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 81248.16
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 1983.3091565315124,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x326814c129d21c0d7e5f97e3ebe44894538efb6e",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 6292.55144822934
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 6729.21120936358,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x320e732862e03b164abbb69e86f560b1c0c70122",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 6729.22120936358
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 25318.864209643845,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x30f71df7e46511dddc99f6989ae5fe5652d22cb1",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 80035.5704883816
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 129.88474732357125,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x2fdd5a299818aba6407d2955bc2c7827f5f0eb1e",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 145.2695
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.01,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x2dc1d4879a6b77b2d3de2906e8c685483b160620",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 13237.2143008654
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 62160.95018742004,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x2d7887698e3552386a8624fe912aabd0b82c4bf1",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 186196.7432446479
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 467.3230821333333,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x2d2a461ce08ab92f09b13ffb35849c640056f5d8",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 503.4958
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 968.336431741795,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x2cf6fe97a70cf4cbf8b107861b05b2166d9ed45d",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 964.689590523271
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 2405.2049057348154,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x2b3c8c43fbc68c8ae38166294ec75a4622c94c65",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 2453.38679135331
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 15144.052505674748,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x299a7db82536cd965424213f85ebbf0dbf4eda5f",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 15155.95049991
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 2742.023763204774,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x27076d520b3d727f972f849c6d743848bbb0961e",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 5637.84
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 9992.90563334982,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x239eec9ec218f71cef5cc14d88b142ed4ff44110",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 10009.33
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 231.23694780257773,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x22ff8f8c5507389048ed0409f9fed7ed6a5704b0",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 233.959651888013
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 100040.57751617997,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x22f75714ce2d043036754a7d645e1be1afd43538",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 99991.4868324793
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 10187.202496188338,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x213bc862e353840c16d9c0b83da18d72bb73b180",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 10190.2339208004
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 591.561331354296,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x20d7bd2a0f7488ad42047c00ffa8aef789fb4d8c",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 2767.855475078955
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 3889.5899999999997,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x20960fca7cab4c4fab7f0890ee891243405ef731",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 1684.56511218158
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 771.5272779678131,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x1fc8214010e9fe2f561a16078285084573820f4a",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 782.88438405312
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 3696.7002358833124,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x1e17f8876b175d37ebe08849434973c051261461",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 3706.93944785813
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.01,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x1a62c9d1746de9fd9d449e80ddbb8a67d2a72a94",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": null
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 8508.557027453293,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x19b55fc63fc3e7e2203c5a6cc118bac6f6d3ca58",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 8482.38
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 21778.741139552603,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x18637e9c1f3bbf5d4492d541ce67dcf39f1609a2",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 21753.3186723661
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 69.37897682899002,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x185e3cfefcf1e6afe6e8495f7ada97f401679665",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 69.37897682899
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.01,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x1711bc52bf7e0494325799717fe640f1924617b7",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": null
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 187.74241352608811,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x1702f2d0df7c99011a690461c34e51bd81cbab48",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 187.742413526088
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 67515.59590775761,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x1617ad25e010d693404cac8ff81f8180f5ae3c83",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 67659.1128583254
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 29214.974619755874,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x1297ad486549a430d59d9d5f99ed7c216b6e77dd",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 29345.4503409541
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 10164.92773380216,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x11d35bcb9f0d88c5f17e26289c5f6c02dc5cf01c",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 10167.3303070186
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.01,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x10d53c54b7a0d672d168f68b8e6dc326678e08a5",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 287.733012888982
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 1385.0022383651274,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x10bf46c783e12b63766dc07a71408b44d8d3621e",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 3019.95025551126
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 1403.2528385615053,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x0f0925152f36dbbecb7cd42bdb2078a2a59c161e",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 1418.11981297109
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.01,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x0ed08dde13efb39bed657dace348398884b01462",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": null
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.01,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x0e457324f0c6125b20392341cdeb7bf9bcb02322",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 661.102265564971
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 145.808126732972,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x0dd2e2c676485fa398cdad7a4e9863edffd32fb7",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 145.253402927785
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 448.16197540549865,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x0d7a908135647001effa47226db6bc70eb42af0e",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 446.759221912059
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 175.55761036077203,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x0d128baa514dbc2b7e6b2e4804af7da77efa9b08",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 174.843486588889
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 10193.330722880319,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x0b69199986365601a55fa7cf75619b89cb19a3f0",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 10232.6
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 97837.22564785798,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x08fdf0107a7d7e77b0f5e5a664ac49a93257c851",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 97837.225647858
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 50406.8379254238,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x0723e725bdd7857d0746f4063e23afbce0c06d0a",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 4506.73498417801
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": -0.01,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x05cd174d30bef052eb6e6d3d845c2c9767d34b72",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 488.314420347055
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 4432.117770924586,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x05c1feb4e3d9fef9e9cc3aedf2741a0a99a95bc5",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 4416.32301558542
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 116766.677856956,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 3,
+                "owner": "\\x0417926c1504f17892cff3b0d0feeda89c711fce",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 225538.9131536786
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 1557.7033345822374,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 3,
+                "owner": "\\x02d653a485e61bdec0008fabc77f533bd32c5866",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 3593.152973542517
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 75055.65212978539,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x014931f3709cb251650944bf6f0bd60f213e95b7",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 75202.05
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 2474.0245039999995,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 1,
+                "owner": "\\x013699f14271bf2027c58fe6a99dd3d0413dca41",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 2474.024504
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": 293865.3040246152,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": 2,
+                "owner": "\\x00000029ff545c86524ade7caf132527707948c4",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 146757.5
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": null,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": null,
+                "number_of_trades": null,
+                "owner": "\\xa6ddbd0de6b310819b49f680f65871bee85f517e",
+                "total_referred_volume": null,
+                "usd_volume_all_exchanges": 4581009.477614546
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
+                "cowswap_usd_volume": null,
+                "day": "2021-09-28T00:00:00+00:00",
+                "nr_of_referrals": 210,
+                "number_of_trades": null,
+                "owner": "/x0000000000000000000000000000000000000000",
+                "total_referred_volume": 8500066.528078575,
+                "usd_volume_all_exchanges": null
+            },
+            "__typename": "get_result_template"
+        }
+    ],
+    "time_of_download": "28/09/2021 18:32:06"
+}

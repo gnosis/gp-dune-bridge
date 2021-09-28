@@ -18,7 +18,7 @@ use primitive_types::{H160, H256};
 use serde::{Deserialize, Serialize};
 use substring::Substring;
 
-const MAINTENANCE_INTERVAL: Duration = Duration::from_secs(1800);
+const MAINTENANCE_INTERVAL: Duration = Duration::from_secs(80);
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct DuneAppDataDownload {
@@ -51,13 +51,14 @@ pub fn load_distinct_app_data_from_json(dune_data_file: String) -> Result<Vec<H2
     let app_data: Vec<H256> = dune_download
         .app_data
         .iter()
-        .filter_map(|data_point| data_point.data.appdata.substring(2, 256).parse().ok())
+        .filter_map(|data_point| data_point.data.appdata.substring(3, 67).parse().ok())
         .collect();
     Ok(app_data)
 }
 pub async fn maintenaince_tasks(db: Arc<ReferralStore>) -> Result<()> {
     // 1st step: getting all possible app_data from file and store them in ReferralStore
-    let vec_with_all_app_data = load_distinct_app_data_from_json(String::from("./distinct_app_data.json"))?;
+    let vec_with_all_app_data =
+        load_distinct_app_data_from_json(String::from("./data/distinct_app_data.json"))?;
     for app_data in vec_with_all_app_data {
         {
             let mut guard = match db.0.lock() {
@@ -88,12 +89,13 @@ pub async fn maintenaince_tasks(db: Arc<ReferralStore>) -> Result<()> {
             .map(|(hash, _)| *hash)
             .collect();
     }
-
+    println!("{:?}", uninitialized_app_data_hashes);
     // 3. try to retrieve all ipfs data for hashes and store them
     for hash in uninitialized_app_data_hashes.iter() {
         let cid_string = get_cid_from_app_data(hash.clone());
         if cid_string.is_ok() {
             let cid = cid_string.unwrap();
+            tracing::info!("{:?}", cid);
             let referrer = match get_ipfs_file_and_read_referrer(cid.clone()).await {
                 Ok(referrer) => referrer,
                 Err(err) => {
@@ -111,6 +113,9 @@ pub async fn maintenaince_tasks(db: Arc<ReferralStore>) -> Result<()> {
                 };
                 guard.app_data.insert(*hash, Some(referrer));
             }
+            tracing::info!("Adding the referrer {:?} for the hash {:?}", referrer, hash);
+        } else {
+            tracing::info!("For the app_data hash {:?}, there could not be found a unique referrer due to {:?}", hash, cid_string.as_ref().err());
         }
     }
     // 4. dump hashmap to json
@@ -136,7 +141,11 @@ pub async fn referral_maintainance(memory_database: Arc<ReferralStore>) {
 }
 async fn get_ipfs_file_and_read_referrer(cid: String) -> Result<H160> {
     let url = format!("https://gateway.pinata.cloud/ipfs/{:}", cid);
-    let body = reqwest::get(url).await?.text().await?;
+    let client = reqwest::Client::builder()
+        .timeout(Duration::from_secs(1))
+        .build()?;
+    let body = client.get(url).send().await?.text().await?;
+    tracing::info!("returned body {:?}", body);
     let json: AppData = serde_json::from_str(&body)?;
     if let Some(metadata) = json.clone().metadata {
         if let Some(referrer) = metadata.referrer {

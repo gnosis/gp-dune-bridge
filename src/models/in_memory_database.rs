@@ -33,21 +33,25 @@ impl InMemoryDatabase {
             Err(poisoned) => poisoned.into_inner(),
         };
         match guard.user_data.get(&user) {
-            Some(data) => {
-                Ok(Profile {
-                    total_trades: data
-                        .iter()
-                        .map(|data| data.number_of_trades.unwrap_or(0u64))
-                        .sum(),
-                    total_referrals: 0u64, // <-- dummy
-                    trade_volume_usd: data
-                        .iter()
-                        .map(|data| data.cowswap_usd_volume.unwrap_or(0f64))
-                        .sum(),
-                    referral_volume_usd: 0f64, // <-- dummy
-                    last_updated: Some(guard.updated),
-                })
-            }
+            Some(data) => Ok(Profile {
+                total_trades: data
+                    .iter()
+                    .map(|data| data.number_of_trades.unwrap_or(0u64))
+                    .sum(),
+                total_referrals: data
+                    .iter()
+                    .map(|data| data.nr_of_referrals.unwrap_or(0u64))
+                    .sum(),
+                trade_volume_usd: data
+                    .iter()
+                    .map(|data| data.cowswap_usd_volume.unwrap_or(0f64))
+                    .sum(),
+                referral_volume_usd: data
+                    .iter()
+                    .map(|data| data.total_referred_volume.unwrap_or(0f64))
+                    .sum(),
+                last_updated: Some(guard.updated),
+            }),
             None => Ok(Default::default()),
         }
     }

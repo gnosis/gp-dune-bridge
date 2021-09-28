@@ -26,5 +26,5 @@ now = datetime.now()
 data_set = {"app_data": app_data,
             "time_of_download": now.strftime("%d/%m/%Y %H:%M:%S")}
 
-with open('distinct_app_data.json', 'w', encoding='utf-8') as f:
+with open('data/distinct_app_data.json', 'w', encoding='utf-8') as f:
     json.dump(data_set, f, ensure_ascii=False, indent=4)

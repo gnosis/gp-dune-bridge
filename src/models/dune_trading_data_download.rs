@@ -18,8 +18,10 @@ pub struct UserData {
 #[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct Data {
     pub cowswap_usd_volume: Option<f64>,
-    pub month: String,
+    pub day: String,
+    pub nr_of_referrals: Option<u64>,
     pub number_of_trades: Option<u64>,
     pub owner: String,
+    pub total_referred_volume: Option<f64>,
     pub usd_volume_all_exchanges: Option<f64>,
 }

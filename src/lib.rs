@@ -2,10 +2,11 @@ pub mod api;
 pub mod date_de_serialization;
 pub mod dune_data_loading;
 pub mod h160_hexadecimal;
-pub mod in_memory_maintainance;
+pub mod in_memory_db_maintainance;
 pub mod metrics;
 pub mod models;
 pub mod referral_maintenance;
+pub mod tracing;
 
 extern crate serde_derive;
 
@@ -25,10 +26,8 @@ pub fn serve_task(
 ) -> JoinHandle<()> {
     let filter = api::handle_all_routes(db, metrics);
     let mut metrics_address = address;
-    tracing::info!(%address, "serving data");
     task::spawn(warp::serve(filter).bind(address));
 
-    tracing::info!(%metrics_address, "serving metrics");
     metrics_address.set_port(DEFAULT_METRICS_PORT);
     serve_metrics(registry, metrics_address)
 }

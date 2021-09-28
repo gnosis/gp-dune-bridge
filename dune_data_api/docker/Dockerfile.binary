@@ -1,7 +1,7 @@
-FROM python:3
+FROM python:3-alpine
 WORKDIR /usr/src/app
 COPY . .
 RUN pip install -r requirements.txt
 RUN apk add --no-cache tini
 
-ENTRYPOINT ["/tini", "--"]
+ENTRYPOINT ["/sbin/tini", "--"]

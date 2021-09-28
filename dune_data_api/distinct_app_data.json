@@ -26,6 +26,12 @@
         },
         {
             "data": {
+                "appdata": "\"0x00000000000000000000000055662e225a3376759c24331a9aed764f8f0c9fbb\""
+            },
+            "__typename": "get_result_template"
+        },
+        {
+            "data": {
                 "appdata": "\"0x0000000000000000000000000000000000000000000000000000000000000001\""
             },
             "__typename": "get_result_template"
@@ -97,5 +103,5 @@
             "__typename": "get_result_template"
         }
     ],
-    "time_of_download": "09/09/2021 08:04:52"
+    "time_of_download": "19/09/2021 21:04:33"
 }
