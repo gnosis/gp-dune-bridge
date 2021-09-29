@@ -30,9 +30,10 @@ data_set = {"user_data": user_data,
 
 file_path = Path(os.environ['DUNE_DATA_FOLDER'] +
                  "/user_data/")
+os.makedirs(file_path,  exist_ok=True)
 
 if bool(data_set):
-    with open(file_path + '/user_data_from' + date_of_data_creation + '.json', 'w', encoding='utf-8') as f:
+    with open(os.path.join(file_path, Path("user_data_from" + date_of_data_creation + ".json")), 'w+', encoding='utf-8') as f:
         json.dump(data_set, f, ensure_ascii=False, indent=4)
 else:
     print("query is still calculating")
