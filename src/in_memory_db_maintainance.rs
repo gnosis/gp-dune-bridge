@@ -11,7 +11,9 @@ pub async fn in_memory_database_maintaince(
 ) {
     let db = Arc::clone(&memory_database);
     loop {
-        let new_data_mutex = load_data_from_json_into_memory(dune_download_file.clone());
+        let new_data_mutex = load_data_from_json_into_memory(String::from(
+            dune_download_file.clone() + "user_data/",
+        ));
         match new_data_mutex {
             Ok(data) => {
                 let mut guard = match db.0.lock() {

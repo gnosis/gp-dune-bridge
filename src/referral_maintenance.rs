@@ -55,10 +55,19 @@ pub fn load_distinct_app_data_from_json(dune_data_file: String) -> Result<Vec<H2
         .collect();
     Ok(app_data)
 }
-pub async fn maintenaince_tasks(db: Arc<ReferralStore>) -> Result<()> {
+pub async fn maintenaince_tasks(
+    db: Arc<ReferralStore>,
+    referral_data_folder: String,
+    dune_data_folder: String,
+) -> Result<()> {
+    println!(
+        "{:?}",
+        String::from(dune_data_folder.clone() + "app_data/distinct_app_data.json",)
+    );
     // 1st step: getting all possible app_data from file and store them in ReferralStore
-    let vec_with_all_app_data =
-        load_distinct_app_data_from_json(String::from("./data/distinct_app_data.json"))?;
+    let vec_with_all_app_data = load_distinct_app_data_from_json(String::from(
+        dune_data_folder + "app_data/distinct_app_data.json",
+    ))?;
     for app_data in vec_with_all_app_data {
         {
             let mut guard = match db.0.lock() {
@@ -119,7 +128,7 @@ pub async fn maintenaince_tasks(db: Arc<ReferralStore>) -> Result<()> {
         }
     }
     // 4. dump hashmap to json
-    let mut file = File::create("app_data_referral_relationship.json")?;
+    let mut file = File::create(referral_data_folder + "app_data_referral_relationship.json")?;
     {
         let guard = match db.0.lock() {
             Ok(guard) => guard,
@@ -130,9 +139,19 @@ pub async fn maintenaince_tasks(db: Arc<ReferralStore>) -> Result<()> {
     }
     Ok(())
 }
-pub async fn referral_maintainance(memory_database: Arc<ReferralStore>) {
+pub async fn referral_maintainance(
+    memory_database: Arc<ReferralStore>,
+    referral_data_folder: String,
+    dune_data_folder: String,
+) {
     loop {
-        match maintenaince_tasks(Arc::clone(&memory_database)).await {
+        match maintenaince_tasks(
+            Arc::clone(&memory_database),
+            referral_data_folder.clone(),
+            dune_data_folder.clone(),
+        )
+        .await
+        {
             Ok(_) => {}
             Err(err) => tracing::error!("Error during maintenaince_task for referral: {:?}", err),
         }

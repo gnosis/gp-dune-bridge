@@ -19,8 +19,14 @@ struct Arguments {
     pub log_filter: String,
     #[structopt(long, env = "BIND_ADDRESS", default_value = "0.0.0.0:8080")]
     bind_address: SocketAddr,
-    #[structopt(long, env = "DUNE_DATA_FOLDER", default_value = ".data/user_data/")]
+    #[structopt(long, env = "DUNE_DATA_FOLDER", default_value = "./data/dune_data/")]
     dune_data_folder: String,
+    #[structopt(
+        long,
+        env = "REFERRAL_DATA_FOLDER",
+        default_value = "./data/referral_data/"
+    )]
+    referral_data_folder: String,
 }
 
 #[tokio::main]
@@ -32,9 +38,11 @@ async fn main() {
     let registry = Registry::default();
     let metrics = Arc::new(Metrics::new(&registry).unwrap());
     let dune_download_folder = args.dune_data_folder;
+    let referral_data_folder = args.referral_data_folder;
 
-    let dune_data = load_data_from_json_into_memory(dune_download_folder.clone())
-        .expect("could not load data into memory");
+    let dune_data =
+        load_data_from_json_into_memory(String::from(dune_download_folder.clone() + "user_data/"))
+            .expect("could not load data into memory");
     let memory_database = Arc::new(InMemoryDatabase(Mutex::new(dune_data)));
 
     let test_app_data_hash: H256 =
@@ -42,8 +50,11 @@ async fn main() {
             .parse()
             .unwrap();
     let referral_store = ReferralStore::new(vec![test_app_data_hash]);
-    let referral_maintance_task =
-        tokio::task::spawn(referral_maintainance(Arc::new(referral_store)));
+    let referral_maintance_task = tokio::task::spawn(referral_maintainance(
+        Arc::new(referral_store),
+        referral_data_folder,
+        dune_download_folder.clone(),
+    ));
     let serve_task = serve_task(
         memory_database.clone(),
         args.bind_address,
