@@ -1,7 +1,14 @@
 import json
 from duneanalytics import DuneAnalytics
 from datetime import datetime
+from pathlib import Path
 import os
+
+# Entire history does not need to be downloaded again. do not run query, if the download has been done in the past and file exists
+entire_history_path = Path(os.environ['DUNE_DATA_FOLDER'] +
+                           "/user_data/user_data_entire_history")
+if entire_history_path.is_file():
+    exit()
 
 # initialize client
 dune = DuneAnalytics(os.environ['DUNE_USER'], os.environ['DUNE_PASSWORD'])
@@ -23,9 +30,8 @@ user_data = data["data"]["get_result_by_result_id"]
 now = datetime.now()
 data_set = {"user_data": user_data,
             "time_of_download": now.strftime("%d/%m/%Y %H:%M:%S")}
-print(data_set)
 if bool(data_set):
-    with open('data/user_data/user_data_entire_history.json', 'w', encoding='utf-8') as f:
+    with open(entire_history_path, 'w', encoding='utf-8') as f:
         json.dump(data_set, f, ensure_ascii=False, indent=4)
 else:
     print("query is still calculated")

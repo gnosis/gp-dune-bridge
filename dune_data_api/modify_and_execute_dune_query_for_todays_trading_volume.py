@@ -1,6 +1,7 @@
 import json
 from duneanalytics import DuneAnalytics
 import datetime
+from pathlib import Path
 import os
 
 
@@ -17,12 +18,18 @@ dune.login()
 
 # fetch token
 dune.fetch_auth_token()
-with open(os.environ['APP_DATA_REFERRAL_RELATION_FILE']) as json_file:
-    app_data_referral_link = json.load(json_file)
+
+file_path = Path(os.environ['APP_DATA_REFERRAL_RELATION_FILE'])
+app_data_referral_link = json.loads(
+    '{"0x0000000000000000000000000000000000000000000000000000000000000abc": "0x0000000000000000000000000000000000000000"}')
+if file_path.is_file():
+    with open(file_path) as json_file:
+        app_data_referral_link = json.load(json_file)
 
 string_of_pair_app_data_referral = ""
 
 for hash in app_data_referral_link:
+    print(hash)
     string_of_pair_app_data_referral += "('" + hash+"','" + \
         app_data_referral_link[hash].replace("0", "/", 1)+"'),"
 

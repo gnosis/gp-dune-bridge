@@ -24,7 +24,6 @@ fn read_dune_data_from_file<P: AsRef<Path>>(path: P) -> Result<DuneTradingDataDo
 pub fn load_data_from_json_into_memory(dune_data_folder: String) -> Result<DatabaseStruct> {
     let mut memory_database: HashMap<H160, Vec<Data>> = HashMap::new();
     let mut date = DateTime::<Utc>::from_utc(NaiveDateTime::from_timestamp(0, 0), Utc);
-    println!("{:?}", dune_data_folder);
     for entry in fs::read_dir(dune_data_folder)? {
         let entry = entry?;
         let dune_download =

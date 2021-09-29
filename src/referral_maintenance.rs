@@ -46,8 +46,7 @@ fn read_dune_data_from_file<P: AsRef<Path>>(path: P) -> Result<DuneAppDataDownlo
 }
 
 pub fn load_distinct_app_data_from_json(dune_data_file: String) -> Result<Vec<H256>> {
-    let dune_download =
-        read_dune_data_from_file(dune_data_file).expect("JSON was not well-formatted");
+    let dune_download = read_dune_data_from_file(dune_data_file)?;
     let app_data: Vec<H256> = dune_download
         .app_data
         .iter()
@@ -60,14 +59,16 @@ pub async fn maintenaince_tasks(
     referral_data_folder: String,
     dune_data_folder: String,
 ) -> Result<()> {
-    println!(
-        "{:?}",
-        String::from(dune_data_folder.clone() + "app_data/distinct_app_data.json",)
-    );
     // 1st step: getting all possible app_data from file and store them in ReferralStore
-    let vec_with_all_app_data = load_distinct_app_data_from_json(String::from(
+    let vec_with_all_app_data = match load_distinct_app_data_from_json(String::from(
         dune_data_folder + "app_data/distinct_app_data.json",
-    ))?;
+    )) {
+        Ok(vec) => vec,
+        Err(err) => {
+            tracing::info!("Could not load distinct app data, due to: {:?}", err);
+            return Ok(());
+        }
+    };
     for app_data in vec_with_all_app_data {
         {
             let mut guard = match db.0.lock() {
@@ -98,7 +99,6 @@ pub async fn maintenaince_tasks(
             .map(|(hash, _)| *hash)
             .collect();
     }
-    println!("{:?}", uninitialized_app_data_hashes);
     // 3. try to retrieve all ipfs data for hashes and store them
     for hash in uninitialized_app_data_hashes.iter() {
         let cid_string = get_cid_from_app_data(hash.clone());

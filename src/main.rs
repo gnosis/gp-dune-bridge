@@ -2,12 +2,12 @@ extern crate serde_derive;
 use gpdata::dune_data_loading::load_data_from_json_into_memory;
 use gpdata::in_memory_db_maintainance::in_memory_database_maintaince;
 use gpdata::metrics::Metrics;
+use gpdata::models::in_memory_database::DatabaseStruct;
 use gpdata::models::in_memory_database::InMemoryDatabase;
 use gpdata::models::referral_store::ReferralStore;
 use gpdata::referral_maintenance::referral_maintainance;
 use gpdata::serve_task;
 use gpdata::tracing::initialize;
-use primitive_types::H256;
 use prometheus::Registry;
 use std::net::SocketAddr;
 use std::sync::{Arc, Mutex};
@@ -42,14 +42,10 @@ async fn main() {
 
     let dune_data =
         load_data_from_json_into_memory(String::from(dune_download_folder.clone() + "user_data/"))
-            .expect("could not load data into memory");
+            .unwrap_or(DatabaseStruct::default());
     let memory_database = Arc::new(InMemoryDatabase(Mutex::new(dune_data)));
 
-    let test_app_data_hash: H256 =
-        "3d876de8fcd70969349c92d731eeb0482fe8667ceca075592b8785081d630b9a"
-            .parse()
-            .unwrap();
-    let referral_store = ReferralStore::new(vec![test_app_data_hash]);
+    let referral_store = ReferralStore::new(Vec::new());
     let referral_maintance_task = tokio::task::spawn(referral_maintainance(
         Arc::new(referral_store),
         referral_data_folder,

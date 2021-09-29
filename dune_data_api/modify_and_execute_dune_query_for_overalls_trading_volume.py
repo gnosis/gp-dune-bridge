@@ -1,7 +1,14 @@
 import json
 from duneanalytics import DuneAnalytics
+from pathlib import Path
 import datetime
 import os
+
+# Entire history does not need to be downloaded again. do not run query, if the download has been done in the past and file exists
+entire_history_path = Path(os.environ['DUNE_DATA_FOLDER'] +
+                           "/user_data/user_data_entire_history")
+if entire_history_path.is_file():
+    exit()
 
 endDate = "'2022-01-01'"
 
@@ -18,8 +25,14 @@ dune.login()
 
 # fetch token
 dune.fetch_auth_token()
-with open(os.environ['APP_DATA_REFERRAL_RELATION_FILE']) as json_file:
-    app_data_referral_link = json.load(json_file)
+
+file_path = Path(os.environ['APP_DATA_REFERRAL_RELATION_FILE'])
+app_data_referral_link = json.loads(
+    '{"0x0000000000000000000000000000000000000000000000000000000000000abc": "0x0000000000000000000000000000000000000000"}')
+if file_path.is_file():
+    with open(file_path) as json_file:
+        app_data_referral_link = json.load(json_file)
+
 
 string_of_pair_app_data_referral = ""
 
