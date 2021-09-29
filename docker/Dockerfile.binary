@@ -19,7 +19,6 @@ FROM docker.io/alpine:latest
 RUN apk add --no-cache tini
 COPY --from=cargo-build /usr/src/regex-stream-split/target/x86_64-unknown-linux-musl/release/regex-stream-split /usr/local/bin/regex-stream-split
 COPY --from=cargo-build /usr/src/gpdata/target/x86_64-unknown-linux-musl/release/gpdata /usr/local/bin/gpdata
-COPY --from=cargo-build /usr/src/gpdata/user_data.json /usr/local/data/gpdata/user_data.json
 COPY docker/startup.sh /usr/local/bin/startup.sh
 
 CMD echo "Specify binary"
