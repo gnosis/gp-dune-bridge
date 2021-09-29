@@ -1,6 +1,7 @@
 import json
 from duneanalytics import DuneAnalytics
 from datetime import datetime
+from pathlib import Path
 import os
 
 # initialize client
@@ -27,8 +28,11 @@ date_of_data_creation = user_data[0]["data"]["day"][0:10]
 data_set = {"user_data": user_data,
             "time_of_download": now.strftime("%d/%m/%Y %H:%M:%S")}
 
+file_path = Path(os.environ['DUNE_DATA_FOLDER'] +
+                 "/user_data/")
+
 if bool(data_set):
-    with open('data/user_data/user_data_from' + date_of_data_creation + '.json', 'w', encoding='utf-8') as f:
+    with open(file_path + '/user_data_from' + date_of_data_creation + '.json', 'w', encoding='utf-8') as f:
         json.dump(data_set, f, ensure_ascii=False, indent=4)
 else:
     print("query is still calculating")

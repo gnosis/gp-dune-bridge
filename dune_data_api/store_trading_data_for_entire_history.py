@@ -6,7 +6,7 @@ import os
 
 # Entire history does not need to be downloaded again. do not run query, if the download has been done in the past and file exists
 entire_history_path = Path(os.environ['DUNE_DATA_FOLDER'] +
-                           "/user_data/user_data_entire_history")
+                           "/user_data/user_data_entire_history.json")
 if entire_history_path.is_file():
     exit()
 
