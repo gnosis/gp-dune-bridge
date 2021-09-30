@@ -22,7 +22,7 @@ pub async fn in_memory_database_maintaince(
                 };
                 *guard = data;
             }
-            Err(err) => tracing::info!(
+            Err(err) => tracing::debug!(
                 "could not load query-data from json due to the error {:}",
                 err
             ),

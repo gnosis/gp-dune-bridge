@@ -33,7 +33,7 @@ struct Arguments {
 async fn main() {
     let args = Arguments::from_args();
     initialize(args.log_filter.as_str());
-    tracing::info!("running data-server with {:#?}", args);
+    tracing::debug!("running data-server with {:#?}", args);
 
     let registry = Registry::default();
     let metrics = Arc::new(Metrics::new(&registry).unwrap());

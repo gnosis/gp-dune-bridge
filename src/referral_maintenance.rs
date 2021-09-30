@@ -65,7 +65,7 @@ pub async fn maintenaince_tasks(
     )) {
         Ok(vec) => vec,
         Err(err) => {
-            tracing::info!("Could not load distinct app data, due to: {:?}", err);
+            tracing::debug!("Could not load distinct app data, due to: {:?}", err);
             return Ok(());
         }
     };
@@ -104,11 +104,11 @@ pub async fn maintenaince_tasks(
         let cid_string = get_cid_from_app_data(hash.clone());
         if cid_string.is_ok() {
             let cid = cid_string.unwrap();
-            tracing::info!("{:?}", cid);
+            tracing::debug!("{:?}", cid);
             let referrer = match get_ipfs_file_and_read_referrer(cid.clone()).await {
                 Ok(referrer) => referrer,
                 Err(err) => {
-                    tracing::info!(
+                    tracing::debug!(
                 "Could not find referrer in cid {:?}, due to the error {:?}, setting referrer to zero address",
                 cid, err
             );
@@ -122,9 +122,9 @@ pub async fn maintenaince_tasks(
                 };
                 guard.app_data.insert(*hash, Some(referrer));
             }
-            tracing::info!("Adding the referrer {:?} for the hash {:?}", referrer, hash);
+            tracing::debug!("Adding the referrer {:?} for the hash {:?}", referrer, hash);
         } else {
-            tracing::info!("For the app_data hash {:?}, there could not be found a unique referrer due to {:?}", hash, cid_string.as_ref().err());
+            tracing::debug!("For the app_data hash {:?}, there could not be found a unique referrer due to {:?}", hash, cid_string.as_ref().err());
         }
     }
     // 4. dump hashmap to json
@@ -164,14 +164,14 @@ async fn get_ipfs_file_and_read_referrer(cid: String) -> Result<H160> {
         .timeout(Duration::from_secs(1))
         .build()?;
     let body = client.get(url).send().await?.text().await?;
-    tracing::info!("returned body {:?}", body);
+    tracing::debug!("returned body {:?}", body);
     let json: AppData = serde_json::from_str(&body)?;
     if let Some(metadata) = json.clone().metadata {
         if let Some(referrer) = metadata.referrer {
             return Ok(referrer.address);
         }
     }
-    tracing::info!(
+    tracing::debug!(
         "Could not find referrer in cid {:?}, setting referrer to zero address",
         cid
     );

@@ -78,7 +78,7 @@ pub trait LivenessChecking: Send + Sync {
 
 pub fn serve_metrics(registry: Registry, address: SocketAddr) -> JoinHandle<()> {
     let filter = handle_metrics(registry);
-    tracing::info!(%address, "serving metrics");
+    tracing::debug!(%address, "serving metrics");
     task::spawn(warp::serve(filter).bind(address))
 }
 
