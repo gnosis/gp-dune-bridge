@@ -35,5 +35,7 @@ os.makedirs(file_path,  exist_ok=True)
 if bool(data_set):
     with open(os.path.join(file_path, Path("user_data_from" + date_of_data_creation + ".json")), 'w+', encoding='utf-8') as f:
         json.dump(data_set, f, ensure_ascii=False, indent=4)
+    print("written updates into: " + os.path.join(file_path,
+          Path("user_data_from" + date_of_data_creation + ".json")))
 else:
     print("query is still calculating")
