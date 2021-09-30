@@ -163,8 +163,7 @@ class DuneAnalytics:
         response = self.session.post(GRAPH_URL, json=query_data)
         if response.status_code == 200:
             data = response.json()
-            print(data)
-            print("New query has been posted")
+            print("New query has been posted with response" + data)
         else:
             print(response.text)
 
@@ -176,6 +175,7 @@ class DuneAnalytics:
         response = self.session.post(GRAPH_URL, json=query_data)
         if response.status_code == 200:
             data = response.json()
+            print("query executed successfully with response:" + data)
         else:
             print(response.text)
 
