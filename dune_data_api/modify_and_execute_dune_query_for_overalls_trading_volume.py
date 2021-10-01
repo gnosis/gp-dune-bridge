@@ -6,8 +6,12 @@ import os
 
 # Entire history does not need to be downloaded again. do not run query, if the download has been done in the past and file exists
 entire_history_path = Path(os.environ['DUNE_DATA_FOLDER'] +
-                           "/user_data/user_data_entire_history")
-if entire_history_path.is_file():
+                           "/user_data")
+os.makedirs(entire_history_path, exist_ok=True)
+file_entire_history = Path(os.path.join(
+    entire_history_path, Path("user_data_entire_history.json")))
+if file_entire_history.is_file():
+    print("file already downloaded")
     exit()
 
 endDate = "'2022-01-01'"

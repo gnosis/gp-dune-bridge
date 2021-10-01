@@ -11,6 +11,7 @@ os.makedirs(entire_history_path, exist_ok=True)
 file_entire_history = Path(os.path.join(
     entire_history_path, Path("user_data_entire_history.json")))
 if file_entire_history.is_file():
+    print("file already downloaded")
     exit()
 
 # initialize client
