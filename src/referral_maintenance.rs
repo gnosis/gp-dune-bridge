@@ -153,7 +153,7 @@ pub async fn referral_maintainance(
         .await
         {
             Ok(_) => {}
-            Err(err) => tracing::error!("Error during maintenaince_task for referral: {:?}", err),
+            Err(err) => tracing::debug!("Error during maintenaince_task for referral: {:?}", err),
         }
         tokio::time::sleep(MAINTENANCE_INTERVAL).await;
     }
