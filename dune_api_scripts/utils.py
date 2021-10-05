@@ -30,3 +30,32 @@ def store_as_json_file(data_set):
         json.dump(data_set, f, ensure_ascii=False, indent=4)
     print("Written updates into: " + os.path.join(file_path,
           Path("user_data_from" + datetime.now().strftime("%m-%d-%Y") + ".json")))
+
+
+def build_string_for_affiliate_referrals_pairs():
+    file_path = Path(os.environ['APP_DATA_REFERRAL_RELATION_FILE'])
+    app_data_referral_link = json.loads(  # loads one input to create always a valid table.
+        '{"0x0000000000000000000000000000000000000000000000000000000000000abc": "0x0000000000000000000000000000000000000000"}')
+    if file_path.is_file():
+        with open(file_path) as json_file:
+            app_data_referral_link = json.load(json_file)
+
+    # Building value pairs "(appDataHash, referral),"
+    string_of_pair_app_data_referral = ""
+    for hash in app_data_referral_link:
+        string_of_pair_app_data_referral += "('" + hash+"','" + \
+            app_data_referral_link[hash].replace("0", "/", 1)+"'),"
+
+    return string_of_pair_app_data_referral[:-1]  # cutting of last comma
+
+
+def check_whether_entire_history_file_was_already_downloade():
+    entire_history_path = Path(os.environ['DUNE_DATA_FOLDER'] +
+                               "/user_data")
+    os.makedirs(entire_history_path, exist_ok=True)
+    file_entire_history = Path(os.path.join(
+        entire_history_path, Path("user_data_entire_history.json")))
+    if file_entire_history.is_file():
+        print("file already downloaded")
+        exit()
+    return file_entire_history
