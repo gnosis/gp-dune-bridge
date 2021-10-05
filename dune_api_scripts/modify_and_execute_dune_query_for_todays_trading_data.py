@@ -45,7 +45,7 @@ def build_query_for_todays_trading_volume():
             AND p.minute between {startDate} and {endDate}
             AND date_trunc('minute', p.minute) = date_trunc('minute', evt_block_time)
     Where evt_block_time between {startDate} and {endDate}
-    ),
+    ,
 
     -- Table with all the trades for the users with prices for sell tokens and buy tokens
     trades_with_prices AS (
