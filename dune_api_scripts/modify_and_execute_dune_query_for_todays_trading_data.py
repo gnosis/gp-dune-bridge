@@ -157,7 +157,7 @@ def build_query_for_todays_trading_volume():
         nr_of_referrals,
         number_of_trades,
         cowswap_usd_volume,
-        0 as usd_volume_all_exchanges
+        0 as usd_volume_all_exchanges 
         -- This value will be set in the future with a new join of tables. It's not yet published here
         -- as we don't need it at the beginning.
     from affiliate_program_results ar
