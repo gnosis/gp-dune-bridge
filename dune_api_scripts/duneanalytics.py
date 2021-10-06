@@ -1,6 +1,5 @@
 # Code mostly copied from: https://github.com/itzmestar/duneanalytics
 
-# -*- coding: utf-8 -*- #
 """This provides the DuneAnalytics class implementation"""
 
 from requests import Session
