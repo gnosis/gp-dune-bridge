@@ -1,16 +1,10 @@
-from duneanalytics import DuneAnalytics
 import os
-from utils import parse_data_from_dune_query, store_as_json_file
+
+from utils import parse_data_from_dune_query, store_as_json_file, dune_from_environment
 
 
-# initialize client
-dune = DuneAnalytics(os.environ['DUNE_USER'], os.environ['DUNE_PASSWORD'])
-
-# try to login
-dune.login()
-
-# fetch token
-dune.fetch_auth_token()
+# initialize the enviroment
+dune = dune_from_environment()
 
 # fetch query result id using query id
 # query id for any query can be found from the url of the query:
