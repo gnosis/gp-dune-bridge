@@ -10,8 +10,8 @@ def build_query_for_todays_trading_volume():
 
     startDate = "'2021-03-01'"
     today = datetime.date.today()
-    tomorrow = today + datetime.timedelta(days=-1)
-    endDate = "'" + tomorrow.strftime("%Y-%m-%d") + "'"
+    yesterday = today + datetime.timedelta(days=-1)
+    endDate = "'{}'".format(yesterday.strftime("%Y-%m-%d"))
 
     return build_query_for_affiliate_data(startDate, endDate)
 
