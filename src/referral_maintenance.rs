@@ -7,6 +7,7 @@ use chrono::Utc;
 use cid::Cid;
 use serde_json;
 use std::convert::TryFrom;
+use std::fs;
 use std::fs::File;
 use std::io::prelude::*;
 use std::io::BufReader;
@@ -128,6 +129,7 @@ pub async fn maintenaince_tasks(
         }
     }
     // 4. dump hashmap to json
+    fs::create_dir_all(referral_data_folder.clone())?;
     let mut file = File::create(referral_data_folder + "app_data_referral_relationship.json")?;
     {
         let guard = match db.0.lock() {
