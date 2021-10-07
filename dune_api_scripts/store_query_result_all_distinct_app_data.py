@@ -19,8 +19,10 @@ data = dune.query_result(result_id)
 
 # parse dat
 app_data = data["data"]["get_result_by_result_id"]
-data_set = {"app_data": app_data,
-            "time_of_download": datetime.now().strftime("%d/%m/%Y %H:%M:%S")}
+data_set = {
+    "app_data": app_data,
+    "time_of_download": datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+}
 
 # write to file, if non-empty
 if bool(data_set):
