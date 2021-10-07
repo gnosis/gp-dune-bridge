@@ -18,7 +18,7 @@ struct Arguments {
 #[tokio::main]
 async fn main() {
     let args = Arguments::from_args();
-    tracing::info!("running data-server with {:#?}", args);
+    tracing::debug!("running data-server with {:#?}", args);
     let dune_download_file = args.dune_data_file;
 
     let dune_data = load_dune_data_into_memory(dune_download_file.clone())
