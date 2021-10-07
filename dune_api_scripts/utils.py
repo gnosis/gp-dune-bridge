@@ -41,12 +41,10 @@ def build_string_for_affiliate_referrals_pairs():
             app_data_referral_link = json.load(json_file)
 
     # Building value pairs "(appDataHash, referral),"
-    string_of_pair_app_data_referral = ""
-    for hash in app_data_referral_link:
-        string_of_pair_app_data_referral += "('" + hash+"','" + \
-            app_data_referral_link[hash].replace("0", "/", 1)+"'),"
+    string_of_pair_app_data_referral = ["('{hash}','{referral}')".format(
+        hash=hash, referral=app_data_referral_link[hash].replace("0", "/", 1)) for hash in app_data_referral_link]
 
-    return string_of_pair_app_data_referral[:-1]  # cutting of last comma
+    return ",".join(string_of_pair_app_data_referral)
 
 
 def check_whether_entire_history_file_was_already_downloade():

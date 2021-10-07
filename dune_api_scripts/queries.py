@@ -1,9 +1,3 @@
-
-from datetime import datetime
-from pathlib import Path
-import os
-import json
-
 from utils import build_string_for_affiliate_referrals_pairs
 
 
@@ -40,7 +34,7 @@ def build_query_for_affiliate_data(startDate, endDate):
             AND p.minute between {startDate} and {endDate}
             AND date_trunc('minute', p.minute) = date_trunc('minute', evt_block_time)
     Where evt_block_time between {startDate} and {endDate}
-    ,
+    ),
 
     -- Table with all the trades for the users with prices for sell tokens and buy tokens
     trades_with_prices AS (
@@ -159,5 +153,5 @@ def build_query_for_affiliate_data(startDate, endDate):
     full outer join user_stats_of_gp tr
     on ar.owner = tr.owner::TEXT
     and tr.day = ar.day
-        """.format(startDate, endDate)
+        """.format(startDate=startDate, endDate=endDate)
     return queryAffiliate + queryConstant
