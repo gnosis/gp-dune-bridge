@@ -2,8 +2,8 @@
 import datetime
 import os
 
-from queries import build_query_for_affiliate_data
-from utils import dune_from_environment
+from .queries import build_query_for_affiliate_data
+from .utils import dune_from_environment
 
 JOB_FREQUENCY_IN_MINUTES = 5
 

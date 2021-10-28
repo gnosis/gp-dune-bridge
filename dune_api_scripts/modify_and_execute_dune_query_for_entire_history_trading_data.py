@@ -4,9 +4,8 @@ Modifies and executes dune query for entire history of trading data.
 import datetime
 import os
 
-from queries import build_query_for_affiliate_data
-from utils import dune_from_environment
-from utils import open_downloaded_history_file
+from .queries import build_query_for_affiliate_data
+from .utils import dune_from_environment, open_downloaded_history_file
 
 
 def build_query_for_all_trading_data():

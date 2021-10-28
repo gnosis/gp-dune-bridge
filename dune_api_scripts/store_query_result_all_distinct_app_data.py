@@ -5,7 +5,7 @@ import json
 import os
 from pathlib import Path
 
-from utils import dune_from_environment, parse_dune_iso_format_to_timestamp
+from .utils import dune_from_environment, parse_dune_iso_format_to_timestamp
 
 entire_history_path = Path(os.environ['DUNE_DATA_FOLDER'] + "/app_data/")
 os.makedirs(entire_history_path, exist_ok=True)
