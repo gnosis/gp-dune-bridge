@@ -59,7 +59,7 @@ def store_as_json_file(data_set):
         print("Empty download")
         sys.exit()
     if 'day' not in data_set["user_data"][0]['data']:
-        print("Invalid download: {file}".format(file=data_set))
+        print(f"Invalid download: {data_set}")
         sys.exit()
     downloaded_data_timestamp = int(parse_dune_iso_format_to_timestamp(
         data_set["user_data"][0]['data']['day']))
